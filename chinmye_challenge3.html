@@ -1,0 +1,93 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+  <title>Malpe Beach</title>
+  <style>
+
+#demo {
+position: absolute;
+top: 30%;
+left: 60%;
+transform: translate(-50%, -50%);
+}
+img{
+ width:15px;
+ height:10px;
+ }
+  </style>
+</head>
+<body>
+<a href="#" >Home |</a>
+<a href="#" >Place |</a>
+<a href="#" >Gallary |</a>
+<a href="#" >About Us |</a>
+<a href="#" >Search |</a>
+<br>
+<br>
+<header style="font-size:32px;"><strong>Malpe Beach, Udupi</strong></header>
+<figure>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\download.jfif" alt="Malpe Beach" style="margin:20px;width:400px;height:300px;"/></figure>
+<p id="demo"></p>
+<script>
+var var1 = setInterval(inTimer, 500);
+var fs = 5; //font size
+var ids = document.getElementById("demo");
+function inTimer()
+{
+ids.innerHTML = 'Ocean Thearpy';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+fs += 5;
+if (fs >= 50)
+{
+clearInterval(var1); //paused
+var2 = setInterval(deTimer, 500);
+
+}
+}
+function deTimer() //fs = 50px
+{
+fs -= 5;
+ids.innerHTML = 'Ocean Thearpy';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+if (fs == 5)
+{
+clearInterval(var2); //paused
+var1 = setInterval(inTimer, 500);
+}
+}
+</script><h4>by <a href="">Chinmye K N</a></h4>
+<article>
+Malpe is a natural port in the Udupi District in Karnataka, India.[1] Located at the mouth of the Malpe River about six kilometers to the west of Udupi, it is an important port and a major fishing harbor on the Karnataka coast.The town of Malpe is associated largely with settlements of the Mogaveera fisherman community. Malpe is a hub of Mogaveera, Billava and Muslim population.
+</article>
+<p>Year:2021<br>Date:20 Jan</p>
+<h4>Reviews</h4>
+<p><strong>We Missed It!</strong><br>Cifha
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+</p>Such a Lovely Visuals we missed it.<hr>
+<p><strong>Love Click</strong><br>Jaya
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d1.png"/>
+</p>Amasing Evening Vidya.<hr>
+<p><strong>Nice</strong><br>Fiona
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d2.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d1.png"/>
+<img src="C:\Users\Lenovo\Desktop\WTA\chinmye_program3\d1.png"/>
+</p>Good One.<hr>
+<footer>
+<a href="#" >Home |</a>
+<a href="#" >Place |</a>
+<a href="#" >Gallary |</a>
+<a href="#" >About Us |</a>
+<br><br><i>
+Copyright &copy 2021 My Coastal Stay</i>
+</footer></body>
+</html>
