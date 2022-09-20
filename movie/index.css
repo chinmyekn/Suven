@@ -1,0 +1,69 @@
+.sub{
+ font-size:20px;
+ padding:15px 15px 15px 15px;
+background-color:green;
+color:black;
+animation:mymove 5s infinite;
+
+}
+.sub:hover
+{
+	font-size:20px;
+	color:silver;
+	outline:none;
+	cursor:pointer;
+}
+@keyframes mymove {
+	from {background-color: #33ccff;}
+	to{background-color:#ff99cc;
+	
+	}
+}
+.a1{padding:20px 20px;
+background-color:green;
+	animation:mymove 5s infinite;
+}
+.sub1{
+	animation:mymove 5s infinite;
+	padding:20px;
+}
+a{
+text-decoration:none;}
+.sel{
+	background-color:gold;
+	cursor:pointer;
+}
+.sel:hover{
+	background-color:black;
+}
+
+form.example input[type=text] {
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background:gold;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 14px;
+  background:gold;
+  color: black;
+  font-size: 17px;
+  border: grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: gold;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
